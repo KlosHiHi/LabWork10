@@ -8,7 +8,7 @@ namespace xUnitTestProject
         [Fact]
         public void IsPasswordValidate_CorrectData_ReturnTrue()
         {
-            var result = Password.IsPasswordValidate("1qwdW67h");
+            var result = Password.IsPasswordValidate("1qWd67!h");
 
             result.Should().BeTrue();
         }
